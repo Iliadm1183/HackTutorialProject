@@ -1,5 +1,7 @@
 print("hello_world")
+
 import math
+def median(data):
     data = sorted(data)
     n = len(data)
     if n % 2 == 0:
@@ -9,3 +11,9 @@ import math
     else:
         middle = n // 2
         return data[middle]
+def mean(input):
+  sum = 0
+  for entry in input:
+    sum += entry
+  return sum / len(input)
+
