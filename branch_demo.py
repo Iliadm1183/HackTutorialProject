@@ -1,6 +1,5 @@
 print("hello_world")
 import math
-def median(data):
     data = sorted(data)
     n = len(data)
     if n % 2 == 0:
