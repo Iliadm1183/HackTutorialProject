@@ -1,5 +1,3 @@
-print("hello_world")
-
 import math
 def median(data):
     data = sorted(data)
